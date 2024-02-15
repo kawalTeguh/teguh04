@@ -1,6 +1,6 @@
 body {
 	background: #282828;
-	font-family: tahoma;
+	font-family: Arial, Helvetica, sans-serif;
 	color: #fff;
 }
 h1 {
@@ -68,6 +68,26 @@ span.turn {
 	}
 	h1 {
 		margin: 20px 5%;
+	}
+	.jam-digital {
+		width: 100%;
+		margin: 10% 20%;
+	}
+	#unit span {
+		width: 23%;
+	}
+}
+@media screen and (max-width: 720px) {
+	#jam span {
+		float: left;
+		text-align: center;
+		font-size: 30px;
+		margin: 0 1.5%;
+		padding: 20px;
+		width: 20%;
+	}
+	h1 {
+		margin: 10px 5%;
 	}
 	.jam-digital {
 		width: 100%;
